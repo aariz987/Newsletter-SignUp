@@ -6,12 +6,22 @@
 </head>
 <body>
 
-	<div class="jumbotron">
+	<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">You Are Failed! to Subscribed.</h1>
+    <p class="lead">Try agin you may be input some wrong iformation..</p>
+    <form action="/failure" method="POST">
+			<button class="btn btn-lg btn-warning" type="submit">Try Again</button>
+		</form>
+  </div>
+</div>
+
+	<!-- <div class="jumbotron">
 		<h1>Failed To login</h1>
 		<form action="/failure" method="POST">
 			<button class="btn btn-lg btn-warning" type="submit">Try Again</button>
 		</form>
-	</div>
+	</div> -->
 
 </body>
 </html>
